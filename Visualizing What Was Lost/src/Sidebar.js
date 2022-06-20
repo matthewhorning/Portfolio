@@ -61,17 +61,17 @@ function createThumbImage(url) {
     legacy_photo_div.appendChild(thumb_image);
 }
 
+/*Function for getting historical image.*/
 function getHistoricalImage(image) {
     const historicalImage = document.getElementById("historicalImage");
     historicalImage.src = image;
 }
 
+/* 
+    Event listener for allowing users to make image thumbnail full screen by tapping thumbnail or larger image. 
+    Creates initial full screen image and flips visibility value when tapping either the thumbnail image or the full screen image.
+*/
 function makeImageFullscreen(url) {
-    /* 
-        Event listener for allowing users to make image thumbnail full screen by tapping thumbnail or larger image. Creates
-        initial full screen image and flips visibility value when tapping either the thumbnail image or the full screen image.
-    */
-   
     document.addEventListener('click', function(e){
         var target = e.target;
         //Only
@@ -101,6 +101,7 @@ function makeImageFullscreen(url) {
     }, false)
 }
 
+//Function to retrieve user photo and add to the 'User' section of sidebar
 function retrieveCapturedImage(index) {
     const user_photo_div = document.getElementById("user_photo_row");
     const storage = getStorage();

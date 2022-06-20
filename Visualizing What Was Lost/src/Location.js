@@ -1,8 +1,11 @@
+//File for various location based utility functions
 import { startCamera } from './Camera';
 
 var [latitude, longitude] = [0, 0];
 var [userLatitude, userLongitude] = [0, 0];
+var distance = 100 //Meters
 
+//Set and get pin long/lat
 function setPinLatLong(lat, long) {
     latitude = lat;
     longitude = long;
@@ -12,6 +15,7 @@ function getPinLatLong() {
     return [latitude, longitude]
 }
 
+//Set and get user long/lat
 function setUserLatLong(lat, long) {
     userLatitude = lat;
     userLongitude = long;
@@ -21,6 +25,7 @@ function getUserLatLong() {
     return [userLatitude, userLongitude]
 }
 
+//Check user's location before allowing 
 function locationChecker() {
     const pinCoords = getPinLatLong();
     const pinLat = pinCoords[0];
@@ -33,13 +38,14 @@ function locationChecker() {
     console.log(`pin lat: ${pinLat}, pin long: ${pinLong}`)
     console.log(`user lat: ${userLat}, user long: ${userLong}`)
 
-    if(calculateDistance(userLat, userLong, pinLat, pinLong) > 100) {
+    if(calculateDistance(userLat, userLong, pinLat, pinLong) > distance) {
         alert("You must be closer to location to take a picture.");
     } else {
         startCamera();
     }
 }
 
+//Utility function to calculate distance
 function calculateDistance(lat1, long1, lat2, long2) {
     var R = 6371000; // Radius of the earth in meters
     var dLat = deg2rad(lat2-lat1);

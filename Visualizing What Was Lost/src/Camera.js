@@ -67,6 +67,7 @@ class Camera {
     }
 }
 
+//Uploads to database
 function uploadCapturedImage(index, img) {
     const storage = getStorage();
     const storageRef = ref(storage, `rowid${index}/${img.alt}`);
