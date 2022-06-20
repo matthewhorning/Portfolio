@@ -13,8 +13,11 @@ I worked primarily on the frontend and on Android app support. This included the
 [Album of screenshots](https://photos.app.goo.gl/NDx1QdgGzgyyRqQo6)
 
 ![Screenshot of onboarding card.](https://lh3.googleusercontent.com/pw/AM-JKLVQcQVwt2EwkJvfvF-X_eHHLtf3k6TiDS8sQleUPR9jLozkyJhDfzsuf6xZ3zPq_2PqiBiKwDB_xTM2q0RMUFTtvwq8CsSHy5GIU3cwNez8BSGhF9HXvovvbZmkPkkqelTN3x_UeAXdcROma9YXfbQ6=w684-h1368-no?authuser=2)
+*Screenshot of onboarding card describing project context.*
 ![Screenshot of information pop-up.](https://lh3.googleusercontent.com/pw/AM-JKLV2IWIhgSs1YXb_kiSYa8cL7XU2ghZZGomanmFrJVVkD6eV5uvDU2LX41GJJntLxPf5QnPAKAk2MEBSm7kOCetvT7MLTQ5VecZZZ3F7CpdzDsOwt9him_dRYZztwPzq4rLZ3ZHOHcOcI5eNzUBJcifB=w684-h1368-no?authuser=2)
+*Screenshot of information pop-up which appears on tapping a pin.*
 ![Screenshot of map view.](https://lh3.googleusercontent.com/pw/AM-JKLWTGEp-in9qjHEfzGnLuQkAZDJ6l0jajx2d-omwlYEtmRpNNFyghoS84N2g3_TMu2aJkdn5k_HRyl0-D14uWLe6vcPgRw-A6AzDY47afyVVUBnox5tQrzSfUSSZvviRMpxDAj9MrJzJsxtxkwaCnrM3=w684-h1368-no?authuser=2)
+*Screenshot of basic map view with custom boundary/layer added.*
 
 **Build Instructions**
 
