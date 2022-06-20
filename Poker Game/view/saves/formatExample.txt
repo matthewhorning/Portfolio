@@ -1,0 +1,4 @@
+Name of File is UserID
+line 1: Amount of money still in pot
+line 2: Beaten AI 1 [0 or 1]
+line 3: Beaten AI 2 [0 or 1]

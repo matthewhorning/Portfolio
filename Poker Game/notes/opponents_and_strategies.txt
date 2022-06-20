@@ -1,0 +1,18 @@
+1. Donkey
+	strat: only calls/checks
+
+2. Puss in boots
+	strat: only raises
+
+3. King Harold
+	strat: only/always raises the nuts
+		tight calling range
+
+4. Lord Farquaad
+	strat: wide ranges
+
+5. Rumpelstiltskin
+	strat: sold tight ranges
+
+6. Tattoo Shrek
+	strat: GTO

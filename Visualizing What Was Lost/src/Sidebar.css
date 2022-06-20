@@ -1,0 +1,141 @@
+/*TODO: Implement desktop styling. Current styling below is mobile specific.*/
+.ion-content {
+    background-color: transparent !important;
+}
+/*Base styling for sidebar to create transition effects + vertical column layout.*/
+.sidebar {
+    height: 0;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    z-index: 1;
+    background-color: white;
+    overflow: auto;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*Base styling for all 3 stacked divs.*/
+.vertical_div {
+    height: 35px;
+    margin-bottom: 4px;
+}
+
+/*Custom styling for top div containing X button and camera button.*/
+#controls_row {
+    height: 10%;
+    width: 100%;
+}
+
+/*Custom styling for div containing location specific data.*/
+#location_info_row {
+    height: 22.5%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+}
+
+/*Custom styling for row of legacy photos.*/
+#legacy_photo_row {
+    height: 33.75%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+/*Custom styling for row of user photos.*/
+#user_photo_row {
+    height: 33.75%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+/*Styling for location name on sidebar.*/
+#location_name {
+    font-size: 20px;
+    text-align: left;
+    font-weight: 400;
+    position: absolute;
+    padding-top: 0.2em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+/*Styling for location date on sidebar.*/
+#location_date {
+    font-size: 16px;
+    text-align: left;
+    font-weight: 400;
+    color: rgb(80,80,80);
+    position: absolute;
+    padding-top: 2.25em;
+    padding-left: 0.75em;
+}
+
+.headertext {
+    font-size: 16px;
+    text-align: left;
+    font-weight: 500;
+    color: rgb(20,20,20);
+    padding-left: 1.5em;
+    width: 100vw;
+}
+
+/*Styling for X button on sidebar.*/
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    left: .5em;
+    font-size: 36px;
+    color: black;
+    text-decoration: none;
+    transition: 0.3s;
+    z-index: 11;
+}
+
+/*Hover styling for close button*/
+.sidebar .closebtn:hover {
+    color: #f1f1f1;
+}
+
+/*Styling for camera button on sidebar.*/
+#cameraButton {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    color: white;
+    background-color:lightslategray;
+    padding: 0.5em 3em;
+    border-radius: 5px;
+    border: 1px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 3px 10px 0 rgb(0 0 0 / 19%);
+    z-index: 11;
+}
+
+/*Hover styling for camera button*/
+#cameraButton:hover {
+    background-color:#97aabd;
+}
+
+/*Styling for thumbnail image on sidebar.*/
+#thumb_image {
+    width: 7em;
+    height: 7em;
+    object-fit: cover;
+    padding-left: 1.5em;
+}
+
+#large_image {
+    position: absolute;
+    object-fit: contain;
+    background-color: black;
+    z-index: 20;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}

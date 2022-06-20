@@ -1,0 +1,5 @@
+[
+    "CREATE TABLE IF NOT EXISTS question_type (questionTypeId integer PRIMARY KEY, questionType text NOT NULL)",
+    "CREATE TABLE IF NOT EXISTS question ( questionId integer PRIMARY KEY AUTOINCREMENT, question text NOT NULL, questionTypeId integer NOT NULL, questionTopicTag text, languageTag text, classCodeTag text, createDate datetime default current_timestamp, updateDate datetime default current_timestamp, FOREIGN KEY(questionTypeId) REFERENCES question_type(questionTypeId))",
+    "CREATE TABLE IF NOT EXISTS answer_free ( questionId integer PRIMARY KEY, answer text, FOREIGN KEY (questionId) REFERENCES question(questionId))"
+    ]

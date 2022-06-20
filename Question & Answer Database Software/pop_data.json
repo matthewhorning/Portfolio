@@ -1,0 +1,7 @@
+[
+    "INSERT INTO question_type (questionTypeId, questionType) VALUES (1, 'FREE_RESPONSE')",
+    "INSERT INTO question_type (questionTypeId, questionType) VALUES (2, 'MULTIPLE_CHOICE')",
+    "INSERT INTO question_type (questionTypeId, questionType) VALUES (3, 'RADIO_CHOICE')",
+    "INSERT INTO question_type (questionTypeId, questionType) VALUES (4, 'BOOLEAN')"
+    ]
+    

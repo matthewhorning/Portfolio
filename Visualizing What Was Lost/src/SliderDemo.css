@@ -1,0 +1,76 @@
+.swiper {
+  position: absolute;
+  width: 80%;
+  height: 60%;
+  left: 10%;
+  top: 20%;
+  border-radius: 5px;
+  border: 1px;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 3px 10px 0 rgb(0 0 0 / 19%);
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  z-index: 999;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.swiper-slide p {
+    width: 80%;
+}
+
+.swiper-slide p.hint_text {
+  font-weight: 400;
+  color: rgb(80,80,80);
+  font-size: small;
+  font-style: italic;
+}
+
+/*Styling for camera button on slides.*/
+.close_button {
+    z-index: 15;
+    position: absolute;
+    left: 8px;
+    top: 38px;
+    color: black;
+    background-color: white;
+    font-weight: 550;
+    padding: 0.5em 1.5em;
+    border-radius: 5px;
+    border-color: rgb(0 0 0 / 19%);
+    visibility: hidden;
+}
+
+#pin-highlight {
+  width: 50%;
+  height: 50%;
+  object-fit: contain;
+}
+
+#camera-highlight {
+  width: 60%;
+  height: 50%;
+  object-fit: contain;
+}
+
+#location-highlight {
+  width: 50%;
+  height: 50%;
+  object-fit:contain;
+}
