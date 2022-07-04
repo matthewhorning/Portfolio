@@ -22,3 +22,11 @@ All code for the project was written by me unless indicated by comments. Asset c
 ![Screenshot of pop-up (animates in)](https://lh3.googleusercontent.com/pw/AM-JKLX-S7WZCHLE-wNEM_pUjOvsMfkpOE5zjNLGvufUW9phY0Ok6hGp_ANpkFk3aVbPDxzDyPzci0t5lv2gZ8n5rQQYs5fwvIJ67OzjnUQF7dTFXxv-3AcgU2_qjNN08Q43bHTr4M805Fgx_fUvPtLnW8F8=w1920-h1080-no?authuser=0)
 
 *Screenshot of sidebar pop-up for viewing progress in current season of live service.*
+
+*Open source modules used with this project*
+
+A few open source modules were used for this project (not included in this repository)
+
+[Raycast Hitbox](https://devforum.roblox.com/t/raycast-hitbox-401-for-all-your-melee-needs/374482)
+
+[PartFracture V3](https://devforum.roblox.com/t/part-fracturing-system-v3/690547)
