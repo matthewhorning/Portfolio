@@ -9,6 +9,16 @@ Readme below contains plans for second and third sprints (part of assignment). S
 
 For this project, I wrote the tests for our project using the pytest library.
 
+## Screenshots
+
+[Album of screenshots](https://photos.app.goo.gl/38JPUwt6aYVZeCuM6)
+
+![Main screen](https://lh3.googleusercontent.com/pw/AM-JKLVKNnMFQf3sg6rJLOonbi8aao4R4JoTJx3V7Flh1DesynMxbGuPwA6pDOutkWpdX7t_2qxOafAmFIKMxQZ3yfJ45VudAu2vmbAwPaPkEi9qIndiyp9gim9OY5ptwte3wiOlbUi8pZWc-G-0hifI8gdC=w1275-h496-no?authuser=2)
+
+![Question added](https://lh3.googleusercontent.com/pw/AM-JKLWgVVMhyUgiwr6c288F9MmnH3nQs7NLlhrJQMBOYfOAoc8xVi-gI-8K7SnTUblxyRv0Iac-BzB8mAdxYckvhls-hxLMU9zQ-mEKPOodFqZo_UtfxQmw7OSloDRV5nycfEQuji6d_fnTmJi-DbNT3x2f=w1275-h496-no?authuser=2)
+
+![View question screen](https://lh3.googleusercontent.com/pw/AM-JKLUyzGd_tK_vNFZZ0zICGxsBYlutU1YZRrOERhpaQi5Zk9QOocNF51zDt4Qq62WaYAATN-8UDSx-ETlvUPIVKFKHNIo59iSHlk_fxFRSvbmMzS0AIqajEqva0D2GTjK5ALl86d6tjJrcTvhGfbYFbe3M=w400-h387-no?authuser=2)
+
 **Build Instructions**
 ```
 python3 qdriver.py
