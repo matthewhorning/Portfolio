@@ -4,6 +4,8 @@ A competetive multiplayer game created using the Roblox platform, written entire
 
 ### Project Date: *Summer 2020*
 
+Playable at: [https://www.roblox.com/games/1760692640/bloxxers-first-person-shooter](https://www.roblox.com/games/1760692640/bloxxers-first-person-shooter)
+
 ## My Responsibilities
 All code for the project was written by me unless indicated by comments. Asset creation was split 50/50, and interface/front-end was designed and implemented by me.
 
