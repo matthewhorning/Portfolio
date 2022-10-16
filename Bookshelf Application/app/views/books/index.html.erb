@@ -1,0 +1,30 @@
+<div class="space-y-8">
+    <div class = "container pt-2 pb-2 border-b-4 border-slate-700 rounded-md">
+        <h1 class = "text-3xl font-medium text-black w-12">Bookshelf</h1>
+
+        <div class = "w-30 p-2 max-w-sm bg-slate-300 text-slate-700 font-medium rounded-lg shadow-lg text-center"><%= link_to "Upload new book", new_book_path %></div>
+    </div>
+
+    <div class = "gap-8 columns-3">
+        <!--Create a list of all props!-->
+        <% @books.each do |book| %>
+        <div class = "w-106 p-6 max-w-m mx-auto bg-white rounded-xl shadow-xl flex items-center space-x-6">
+            <div>
+                <img class = "w-96 h-200" src=<%= book.cover_path %>>
+            </div>
+            <div>
+                <h1 class = "text-lg font-medium text-black w-4">
+                    <%= book.title %>
+                </h1>
+                <h2>
+                    <%= book.author %>
+                </h2>
+                <div class = "w-30 p-2 max-w-sm bg-slate-300 text-slate-700 font-medium rounded-lg shadow-lg text-center">
+                    <%= link_to "More Info", book %>
+                </div>
+            </div>
+        </div>
+        
+        <% end %>
+    </div>
+</div>

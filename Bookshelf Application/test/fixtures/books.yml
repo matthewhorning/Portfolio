@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  author: MyString
+  desc: MyString
+  pubdate: 2022-09-02
+  isbn: 1
+  cover_path: MyString
+  length: 1
+
+two:
+  title: MyString
+  author: MyString
+  desc: MyString
+  pubdate: 2022-09-02
+  isbn: 1
+  cover_path: MyString
+  length: 1

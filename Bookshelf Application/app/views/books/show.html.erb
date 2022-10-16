@@ -1,0 +1,13 @@
+<div class="space-y-6">
+    <div class = "gap-8 p-6  bg-white rounded-xl shadow-xl w-96">
+        <h1 class = "text-3xl font-medium text-black"><%= @book.title %></h1>
+        <img class = "w-96 h-200" src=<%= @book.cover_path %>>
+        <p class = "text-md font-medium"><%= @book.desc %></p>
+        <p class = "text-xs font-medium">Published on: <i><%= @book.pubdate %></i></p>
+        <p class = "text-sm font-medium"><%= @book.length %> Pages</p>
+    </div>
+    <div class = "gap-4 columns-3">
+        <div class="w-30 p-2 max-w-sm bg-slate-300 text-slate-700 font-medium rounded-lg shadow-lg text-center"><%= link_to "Edit", edit_book_path(@book) %></div>
+        <div class="w-30 p-2 max-w-sm bg-slate-300 text-slate-700 font-medium rounded-lg shadow-lg text-center"><%= button_to 'Destroy', @post, method: :delete, form: { data: { 'turbo-confirm': 'Are you sure?' } } %></div>
+    </div>
+</div>

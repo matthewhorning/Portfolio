@@ -1,0 +1,63 @@
+<!--Form template from https://guides.rubyonrails.org/getting_started.html-->
+<!--Modified by me: adding additional options and styling-->
+<div>
+    <%= form_with model: book do |form| %>
+        <div>
+            <%= form.label :title %><br>
+            <%= form.text_field :title %>
+            <% book.errors.full_messages_for(:title).each do |message| %>
+                <div><%= message %></div>
+            <% end %>
+        </div>
+
+        <div>
+            <%= form.label :author %><br>
+            <%= form.text_field :author %>
+            <% book.errors.full_messages_for(:author).each do |message| %>
+                <div><%= message %></div>
+            <% end %>
+        </div>
+        <div>
+            <%= form.label :desc %><br>
+            <%= form.text_field :desc %>
+            <% book.errors.full_messages_for(:desc).each do |message| %>
+                <div><%= message %></div>
+            <% end %>
+        </div>
+        <div>
+            <%= form.label :pubdate %><br>
+            <%= form.date_field :pubdate %>
+            <% book.errors.full_messages_for(:pubdate).each do |message| %>
+                <div><%= message %></div>
+            <% end %>
+        </div>
+
+        <div>
+            <%= form.label :isbn %><br>
+            <%= form.text_field :isbn %>
+            <% book.errors.full_messages_for(:isbn).each do |message| %>
+                <div><%= message %></div>
+            <% end %>
+        </div>
+
+        <div>
+            <%= form.label :cover_path %><br>
+            <%= form.text_field :cover_path %>
+            <% book.errors.full_messages_for(:cover_path).each do |message| %>
+                <div><%= message %></div>
+            <% end %>
+        </div>
+
+        <div>
+            <%= form.label :length %><br>
+            <%= form.text_field :length %>
+            <% book.errors.full_messages_for(:length).each do |message| %>
+                <div><%= message %></div>
+            <% end %>
+        </div>
+
+        <div class =>
+            <div class = "w-30 p-2 max-w-sm bg-slate-300 text-slate-700 font-medium rounded-lg shadow-lg text-center"><%= form.submit %></div>
+        </div>
+    <% end %>
+</div>
